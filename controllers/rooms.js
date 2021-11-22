@@ -15,6 +15,8 @@ const getAll = (req, res) => {
     page = defaultPage
   } = req.query;
 
+  console.log(page)
+
   let {
     hotelId = null
   } = req.params;
